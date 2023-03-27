@@ -1,4 +1,3 @@
-import { Report } from 'notiflix/build/notiflix-report-aio';
 import { getFilter, getContacts } from 'redux/selectors';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteContact } from 'redux/contactsSlice';
