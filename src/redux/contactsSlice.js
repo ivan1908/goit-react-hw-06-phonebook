@@ -17,7 +17,7 @@ export const contactsReducer = createSlice({
           payload: {
             name: contact.name,
             number: contact.number,
-            // id: nanoid(),
+            id: nanoid(),
           },
         };
       },
