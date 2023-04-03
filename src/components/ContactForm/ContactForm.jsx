@@ -15,7 +15,7 @@ export const ContactForm = () => {
         const { name, number } = form.elements;
 
         const contact = {
-            id: nanoid(),
+            // id: nanoid(),
             name: name.value,
             number: number.value,
         };
